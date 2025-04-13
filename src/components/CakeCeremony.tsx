@@ -105,9 +105,10 @@ export const CakeCeremony: React.FC<CakeCeremonyProps> = ({ onComplete }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
-      <div className="text-3xl mb-8 text-pink-600 font-semibold text-center">
+      <div className="text-2xl mb-8 text-pink-600 font-semibold text-center">
         {!isCut ? (
-          <span>✨ Light the candles by clicking on them and drag down to cut the cake! ✨</span>
+          <span>✨ Light the candles by clicking on them and drag down to cut the cake! ✨ <br /> cut the cake fast ,there's more to see 😄</span>
+          
         ) : (
           <span>🎉🥳 Happy Birthday Anukriti Pandey 🥳🎉</span>
         )}
